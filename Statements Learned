@@ -1,0 +1,20 @@
+Create Table groceries (id INTEGER PRIMARY KEY, name TEXT,  quantity INTEGER);
+INSERT INTO groceries VALUES (1, "Bananas", 4)
+
+SELECT * FROM <table> WHERE <row> ORDER BY <row>
+SELECT (row2) SUM(row1) FROM (table) GROUP BY (row2)
+SELECT MAX(row) FROM (table)
+
+UPDATE <table> SET <row> = (modifiction) WHERE <row> = (value)
+ALTER TABLE <table> ADD COLUMN <new row> TEXT;
+DELETE FROM <table> WHERE <row> IS (value)
+
+CREATE TABLE creates a new table.
+INSERT INTO adds a new row to a table.
+SELECT queries data from a table.
+UPDATE edits a row in a table.
+ALTER TABLE changes an existing table.
+DELETE FROM deletes rows from a table.
+
+SELECT DISTINCT lists unique values SELECT DISTINCT <row> FROM <table>
+
